@@ -39,7 +39,16 @@ a {
 }
 
 .lower-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
 
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 8px;
 }
 
 #big-text{
@@ -61,16 +70,19 @@ button{
     border-radius: 8px;
 }
 
+.right-side{
+    display: flex;
+    justify-content: flex-end;
+}
+
 .picture-placeholder{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: gray;
-    width: 200px;
     color: white;
-    flex-shrink: 0;
+    width: 450px;
 }
-
 
 
 /*.after-header{
