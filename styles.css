@@ -42,6 +42,7 @@ a {
 
 .lower-header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 50px;
 }
@@ -84,6 +85,7 @@ button{
     background-color: gray;
     color: white;
     width: 450px;
+    height: 217px;
 }
 
 /* --------------- BODY -------------------*/
@@ -116,6 +118,7 @@ button{
 
 .box-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 36px;
 }
@@ -149,21 +152,22 @@ button{
     background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding: 75px 320px 75px;
 }
 
 #quote{
+    display: flex;
+    flex-wrap: wrap;
     color: #1f2937;
     font-size: 36px;
     font-style: light italic;
-    width: 812px;
+    /*width: 812px;*/
 }
 
 #quote-author{
     display: flex;
     margin-left: auto;
-    margin-right: 350px;
+    margin-right: 40px;
     color: #1F2937;
     font-weight: bold;
     font-size: 24px;
