@@ -1,1 +1,2 @@
 # Project-Landing-Page
+This project showcases my proficiency in CSS and its application to HTML. It demonstrates my grasp of the Box Model and how to use Flexboxes, highlighting how I can effectively utilize these tools to design a landing page tailored to specific website requirements.
