@@ -217,8 +217,6 @@ button{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    height: auto;
-    background-color: transparent;
     border: 2px solid white;
     width: 85px;
     margin-left: auto;
