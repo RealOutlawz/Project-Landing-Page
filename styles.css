@@ -73,6 +73,10 @@ button{
     border-radius: 8px;
 }
 
+#custom-button-heading{
+    border: transparent
+}
+
 .right-side{
     display: flex;
     justify-content: flex-end;
@@ -208,13 +212,14 @@ button{
     font-weight: lighter;
 }
 
-#sign-up-button-custom{
+#custom-button-body{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
     height: auto;
-    border-color: white;
+    background-color: transparent;
+    border: 2px solid white;
     width: 85px;
     margin-left: auto;
 }
