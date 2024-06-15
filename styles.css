@@ -3,7 +3,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 100vh;
 }
 
 a {
@@ -88,7 +87,9 @@ button{
 }
 
 /* --------------- BODY -------------------*/
+
 /* --------------- TOP --------------------*/
+
 .body{
     display: flex;
     flex-direction: column;
@@ -102,6 +103,7 @@ button{
     align-items: center;
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 75px;
 }
 
 #body-title{
@@ -137,8 +139,8 @@ button{
 .box-text{
     text-align: center;
     width: 150px;
-    margin-bottom: 75px;
 }
+
 /* -------------- MIDDLE ------------*/
 
 #quote-backround{
@@ -147,6 +149,8 @@ button{
     background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 #quote{
@@ -154,13 +158,75 @@ button{
     font-size: 36px;
     font-style: light italic;
     width: 812px;
-    margin-top: 75px;
 }
 
 #quote-author{
-    
+    display: flex;
+    margin-left: auto;
+    margin-right: 350px;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
 }
 
-.footer{
+/* ------------- BOTTOM -----------*/
+
+#sign-up-section{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 75px 150px 75px;
+}
+
+#sign-up-box{
+    display: flex;
+    background-color: #3882f6;
+    padding: 25px 50px 25px;
+    border-radius: 8px;
+    width: 812px;
+}
+
+#left-side-sign-up{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sign-up-text1{
+    color: white;
+    font-weight: bold;
+
+}
+
+#sign-up-text2{
+    color: white;
+    font-weight: lighter;
+}
+
+#sign-up-button-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: auto;
+    border-color: white;
+    width: 85px;
+    margin-left: auto;
+}
+
+/* ----------- FOOTER ---------*/
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 25px;
+}
+
+#footer-text{
+    color: #e5e7eb;
+    font-size: 12px;
+
 }
